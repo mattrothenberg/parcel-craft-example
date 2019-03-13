@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["console","log"],"mappings":";;;AACA,aADA,QAAA,aACAA,QAAQC,IAAI","file":"app.js","sourceRoot":"../../src","sourcesContent":["import './app.css';\nconsole.log('goodbye')"]}

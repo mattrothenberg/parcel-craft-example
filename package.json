@@ -1,0 +1,13 @@
+{
+  "name": "parcel-craft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch src/app.js --out-dir web/tmp",
+    "build": "parcel build src/app.js --out-dir web/dist"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.1"
+  }
+}

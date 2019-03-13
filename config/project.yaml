@@ -1,0 +1,32 @@
+email:
+  fromEmail: admin@admin.com
+  fromName: 'Parcel Craft Test'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  390ab3fc-865d-45a6-ac28-4d84790668fa:
+    name: Common
+siteGroups:
+  b5b9286f-c1c0-4bbc-8fae-79839106dc16:
+    name: 'Parcel Craft Test'
+sites:
+  39bd29ed-b00b-4418-9724-93f7ff0deaaf:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'Parcel Craft Test'
+    primary: true
+    siteGroup: b5b9286f-c1c0-4bbc-8fae-79839106dc16
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'Parcel Craft Test'
+  schemaVersion: 3.1.25
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
