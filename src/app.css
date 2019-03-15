@@ -1,3 +1,7 @@
+@tailwind preflight;
+@tailwind utilities;
+
 body {
   background: red;
+  font-size: 24px;
 }
